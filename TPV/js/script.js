@@ -72,8 +72,10 @@ function inicio() {
     galeria.appendChild(cardFruta);
   }
 }
+
+
 function logiearse(e) {
   console.log(e.key);
   console.log("contenido pwq" + txtPassword);
-  
+
 }
