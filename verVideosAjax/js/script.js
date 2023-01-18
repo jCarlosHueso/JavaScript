@@ -15,7 +15,7 @@ function inicio() {
       
           console.log(item.url)
 let video = document.createElement("div")
-video.innerHTML="<video width=320 height=240 autoplay muted><source src="+item.url+"></video>"
+video.innerHTML="<video width=320 height=240 autoplay muted loop><source src="+item.url+"></video>"
 body.appendChild(video)
 
       }
